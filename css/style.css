@@ -20,19 +20,19 @@ body {
   height: 750px;
   background-color: #ffff;
   z-index: -11;
-  border-radius: 0px 0 0 100px;
+  border-radius: 0 0 0 100px;
 }
 
 .container {
   max-width: 85%;
   margin: 0 auto;
-  padding: 15px 0px;
+  padding: 15px 0;
 }
 
 #header .container {
   max-width: 90%;
   margin: 0 auto;
-  padding: 15px 0px;
+  padding: 15px 0;
 }
 
 #nav {
@@ -50,10 +50,9 @@ body {
 }
 
 .nav-content .items {
-  display: flex;
+  display: none;
   width: 300px;
   justify-content: space-between;
-  display: none;
 }
 
 .items .item {
@@ -119,6 +118,7 @@ body {
     display: none;
     width: 30px;
   }
+
   .nav-content .items {
     display: flex;
   }

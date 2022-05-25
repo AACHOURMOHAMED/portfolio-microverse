@@ -23,7 +23,7 @@ body {
   background-color: #ffff;
   z-index: -11;
   border-radius: 0 0 0 100px;
-  background-image: url("/assest/header-shapes\ mobile@2x.svg");
+  background-image: url("../assest/back.svg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -103,13 +103,15 @@ body {
 
 .main-content .description {
   font-size: 16px;
-  color: var(--secondery-color);
+  color: #344563;
   max-width: 326px;
-  font-weight: 400;
+  font-weight: 500;
+  line-height: 24px;
+  font-style: normal;
 }
 
 .main-content .titre {
-  color: #0e8cfb;
+  color: #7f8cff;
 }
 
 .network {

@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 :root {
   --primary-color: #0e8cfb;
   --secondery-color: #001148;
@@ -18,7 +19,7 @@ body {
   width: 100%;
   height: 750px;
   background-color: #ffff;
-  z-index: -111;
+  z-index: -11;
   border-radius: 0px 0 0 100px;
 }
 
@@ -71,7 +72,8 @@ body {
   display: block;
 }
 
-/*Hero section*/
+/* Hero section */
+
 #main {
   margin-top: 70px;
 }
@@ -109,14 +111,15 @@ body {
 .network img {
   cursor: pointer;
 }
-/*End of Hero section*/
 
-@media (min-width: 600px) {
+/* End of Hero section */
+
+@media only screen and (min-width: 600px) {
   .menu {
     display: none;
     width: 30px;
   }
-  .nav-content {
-    display: none;
+  .nav-content .items {
+    display: flex;
   }
 }

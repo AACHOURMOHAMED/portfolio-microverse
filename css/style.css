@@ -13,19 +13,20 @@
 
 body {
   font-family: "poppins", sans-serif;
-  background-color: #f3f3f3;
+  background-color: #e5e5e5;
 }
 
 .back {
   position: absolute;
+  background-image: url("../assest/back.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0 80px;
   width: 100%;
-  height: 750px;
+  height: 718px;
   background-color: #ffff;
   z-index: -11;
   border-radius: 0 0 0 100px;
-  background-image: url("../assest/back.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .container {
@@ -91,7 +92,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 470px;
+  height: 430px;
 }
 
 .main-content .title {
@@ -132,3 +133,241 @@ body {
     display: flex;
   }
 }
+
+@media only screen and (min-width: 450px) {
+  .back {
+    background-size: cover;
+  }
+}
+
+/* Work section */
+
+#work {
+  margin-top: 150px;
+}
+
+.workContent {
+  display: grid;
+  gap: 60px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 16px;
+  border: 1px solid #dfe1e6;
+  max-width: 327px;
+}
+
+.card-image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.card-Content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card-Content .title {
+  font-family: "poppins", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  color: #172b4d;
+  max-width: 205px;
+}
+
+.tech {
+  display: flex;
+  justify-content: space-between;
+  max-width: 255px;
+  align-items: center;
+}
+
+.tech span:first-child {
+  color: #344563;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.tech span:nth-child(3) {
+  color: #7a869a;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.tech span:nth-child(5) {
+  color: #7a869a;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  background-color: #c1c7d0;
+  border-radius: 50%;
+}
+
+.discription {
+  color: #344563;
+  font-weight: 400;
+}
+
+.lang {
+  display: flex;
+  gap: 15px;
+}
+
+.lang .feild span {
+  color: #6070ff;
+  background-color: #ebebff;
+  padding: 4px 12px 4px 12px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-family: "poppins", sans-serif;
+}
+
+.feild-button .btn {
+  font-weight: 500;
+  padding: 12px;
+  font-size: 17px;
+  color: #6070ff;
+  background-color: transparent;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+}
+
+/* Work section */
+
+/* About MYself section  */
+
+#About {
+  display: flex;
+  align-items: center;
+  background-color: #ffff;
+  margin-top: 150px;
+  border-radius: 0 80px 0 0;
+}
+
+.About-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 430px;
+  margin-top: 100px;
+}
+
+.About-content .title {
+  max-width: 200px;
+  font-size: 43px;
+  font-weight: 700;
+  color: #172b4d;
+}
+
+.About-content .description {
+  font-size: 16px;
+  color: #344563;
+  max-width: 326px;
+  font-weight: 500;
+  line-height: 24px;
+  font-style: normal;
+}
+
+.About-content .titre {
+  color: #7f8cff;
+}
+
+.networkAbout {
+  display: flex;
+  justify-content: space-between;
+  width: 177px;
+}
+
+.About-content .feild-button .btn {
+  font-weight: 500;
+  padding: 12px;
+  font-size: 17px;
+  color: #6070ff;
+  background-color: transparent;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+/* details */
+
+.languages {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+details {
+  font-size: 1rem;
+  background: #ffff;
+  border-radius: 8px;
+  position: relative;
+  width: 100%;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+summary {
+  user-select: none;
+  list-style: none;
+  padding: 1em;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+.summary-chevron-up svg {
+  opacity: 0.5;
+}
+
+.summary-chevron-up,
+.summary-chevron-down {
+  pointer-events: none;
+  position: absolute;
+  top: 0.75em;
+  right: 1em;
+  background: #ffff;
+  display: block;
+}
+
+summary:focus {
+  outline: none;
+}
+
+summary:hover .summary-chevron-up svg {
+  opacity: 1;
+}
+
+.langs {
+  cursor: default;
+  padding: 1em;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.langg {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #f7f7f9;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.langgg {
+  color: #253858;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* End of details */
+
+/* End of About MYself section */

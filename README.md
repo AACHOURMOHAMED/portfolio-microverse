@@ -1,23 +1,38 @@
-#Portfolio 
+# PORTFOLIO
 
-simple portfolio with simple design to practice what i've learned
-
-#Built With
-Mohamed Aachour (Ashour)
+>This project is a portfolio. It  created as part of the Microverse coursework
 
 
-#🤝 Contributing
+## Built With
+
+vscoce
+HTML
+CSS
+
+
+
+
+
+## Authors
+
+👤 **AshourMohamed**
+
+- GitHub: [@githubhandle](https://github.com/AACHOURMOHAMED)
+- Twitter: [@twitterhandle](https://twitter.com/MohamedAachour3)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/mohamed-aachour-25405b215)
+
+
+## 🤝 Contributing
+
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the issues page.
+Feel free to check the [issues page](../../issues/).
 
-#Show your support
+## Show your support
+
 Give a ⭐️ if you like this project!
 
-Acknowledgments
-Hat tip to anyone whose code was used
-Inspiration
-etc
-#📝 License
-This project is MIT licensed.
-.
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.

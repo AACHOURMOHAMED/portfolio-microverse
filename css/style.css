@@ -215,9 +215,14 @@ body {
   font-weight: 400;
 }
 
-.lang {
+/* .lang {
   display: flex;
   gap: 15px;
+} */
+
+.lang .feild {
+  float: left;
+  margin-right: 15px;
 }
 
 .lang .feild span {

@@ -526,7 +526,7 @@ textarea:focus {
 
 /* start media min width 1400px */
 
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
   .back {
     height: 916px;
     background-image: url(../assest/back-desktop.svg);

@@ -478,6 +478,16 @@ textarea:focus {
   background-color: #ffff;
 }
 
+.btn-warpper .btn-c:hover {
+  background-color: #6070ff;
+  color: #ffff;
+}
+
+.btn-warpper .btn-c:active {
+  background-color: #2230d2;
+  color: #ffff;
+}
+
 .content-contact {
   display: flex;
   align-items: center;

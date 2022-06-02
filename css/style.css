@@ -458,6 +458,11 @@ summary:hover .summary-chevron-up svg {
   font-weight: 400;
   color: #ebebff;
   line-height: 28px;
+  transition: 0.3s ease-in-out;
+}
+
+.text-contact:hover {
+  transform: translate(20px);
 }
 
 .form-contact {

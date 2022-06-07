@@ -216,6 +216,11 @@ body {
 .discription {
   color: #344563;
   font-weight: 400;
+  transition: 0.3s ease-in-out;
+}
+
+.discription:hover {
+  transform: translate(20px);
 }
 
 .lang {
@@ -286,6 +291,11 @@ body {
   font-weight: 500;
   line-height: 24px;
   font-style: normal;
+  transition: 0.3s ease-in-out;
+}
+
+.About-content .description:hover {
+  transform: translate(20px);
 }
 
 .About-content .titre {
@@ -481,6 +491,7 @@ input:focus {
   border-radius: 8px;
   border: none;
   color: #172b4d;
+  resize: none;
 }
 
 textarea::placeholder {
@@ -668,6 +679,7 @@ textarea:focus {
 
   .area-warpper textarea {
     border-radius: 0;
+    resize: none;
   }
 
   .btn-warpper {

@@ -295,7 +295,7 @@ body {
 }
 
 .About-content .description:hover {
-  transform: translate(20px);
+  transform: translate(30px);
 }
 
 .About-content .titre {

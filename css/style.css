@@ -344,7 +344,6 @@ body {
 
 .tags {
   display: flex;
-  justify-content: space-between;
   padding: 0;
   gap: 15px;
   list-style: none;
@@ -404,7 +403,6 @@ body {
   max-height: 100vh;
   background: #c1c7d0;
   z-index: 1;
-  animation: slide-in 0.8s ease-in-out both;
 }
 
 .works-modal {
@@ -428,7 +426,7 @@ body {
 .works-modal .modal-title-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .modal-body {
@@ -437,7 +435,6 @@ body {
 }
 
 .modal-body .project-description {
-  height: 220px;
   margin-bottom: 12px;
 }
 

@@ -327,6 +327,8 @@ body {
   padding: 0;
   gap: 15px;
   list-style: none;
+  align-items: center;
+  margin-top: 10px;
 }
 
 .tag-item {

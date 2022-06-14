@@ -130,7 +130,7 @@ body {
   padding-top: 60px;
   padding-left: 20px;
   z-index: 888;
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(7px);
   mix-blend-mode: multiply;
 }
 

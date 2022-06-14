@@ -398,7 +398,7 @@ body {
 
 .popup .pop .card-Content .feild-button {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   margin-top: 10px;
 }

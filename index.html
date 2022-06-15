@@ -12,6 +12,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     />
     <script src="script/script.js" defer></script>
+    <script src="script/FormValidation.js" defer></script>
   </head>
   <body>
     <div class="back"></div>
@@ -295,6 +296,7 @@
               </div>
               <form
                 class="form-contact"
+                id="form"
                 action="https://formspree.io/f/mgedpajj"
                 method="post"
                 autocomplete="off"
@@ -306,6 +308,7 @@
                     placeholder="Full name"
                     required
                     maxlength="30"
+                    id="fullname"
                   />
                 </div>
                 <div class="input-warpper">
@@ -313,6 +316,8 @@
                     class="input"
                     type="email"
                     placeholder="Enter your email"
+                    name="email"
+                    id="email"
                     required
                   />
                 </div>
@@ -326,16 +331,21 @@
                     required
                   ></textarea>
                 </div>
+         
+                   <small></small>
+
+              
                 <div class="btn-warpper">
                   <button type="submit" class="btn-c">Get it Touch</button>
                 </div>
+                
               </form>
               <img class="shape" src="./assest/Shape.svg" alt="Line" />
             </div>
           </div>
         </div>
       </div>
-    </footer>
+    </footer> 
     <!--The End Contact form section-->
   </body>
 </html>

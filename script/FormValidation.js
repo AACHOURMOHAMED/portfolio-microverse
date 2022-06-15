@@ -5,7 +5,7 @@ form.addEventListener('submit', (e) => {
   const message = [];
 
   if (email.value !== email.value.toLowerCase()) {
-    message.push('* Email address must be in lowercase.');
+    message.push('Please use lowercase for email address');
   }
 
   if (message.length > 0) {

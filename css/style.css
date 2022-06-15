@@ -784,6 +784,15 @@ textarea:focus {
     width: 100%;
   }
 
+  small {
+    z-index: 999;
+    color: #ffff;
+    display: block;
+    margin-top: 5px;
+    font-size: 20px;
+    padding: 5px;
+  }
+
   .card1 {
     order: 1;
   }

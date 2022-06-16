@@ -26,6 +26,6 @@ window.onload = () => {
     data = JSON.parse(localStorage.getItem('Data'));
     Name.value = data.fullname;
     Email.value = data.email;
-    // Message.value = data.message;
+    Message.value = data.message;
   }
 };

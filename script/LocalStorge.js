@@ -22,7 +22,7 @@ Message.addEventListener('change', () => {
 });
 
 window.onload = () => {
-  if (localStorage.getItem('form_data') !== null) {
+  if (localStorage.setItem('form_data') !== null) {
     data = JSON.parse(localStorage.getItem('Data'));
     Name.value = data.fullname;
     Email.value = data.email;
